@@ -12,10 +12,10 @@
         <ul>
         
             <li><label for="name"><?php echo $subscriber_name; ?>: </label>
-                <input type="text" name="doifd_subscriber_name" id="doifd_subscriber_name" value=""/></li>
+                <input type="text" name="doifd_subscriber_name" id="doifd_subscriber_name" value="<?php echo $doifd_lab_subscriber_name ; ?>" placeholder="<?php echo $subscriber_name ; ?>"/></li>
             
             <li><label for="name"><?php echo $subscriber_email ; ?>': </label>
-                <input type="text" name="doifd_subscriber_email" id="doifd_subscriber_email" value=""/></li>
+                <input type="text" name="doifd_subscriber_email" id="doifd_subscriber_email" value="<?php echo $doifd_lab_subscriber_email ; ?>" placeholder="<?php echo $subscriber_email ; ?>"/></li>
         
         </ul>
         
